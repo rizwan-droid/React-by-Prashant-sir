@@ -3,14 +3,14 @@ import styles from "./Item.module.css";
 
 const Item = ({ foodItem }) => {
   return (
-    <li className={`list-group-item ${styles["mera-item"]}`}>
+    <li className={"list-group-item"}>
       <span className={styles["mera-span"]}>{foodItem}</span>
     </li>
   );
 };
 
 Item.propTypes = {
-  foodItem: PropTypes.string.isRequired, // Validate that 'fooditem' is an array and is required
+  foodItem: PropTypes.string.isRequired,
 };
 
 export default Item;
