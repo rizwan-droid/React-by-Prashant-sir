@@ -1,0 +1,13 @@
+input {
+  width: 100%;
+}
+
+.meri-row {
+  margin: 10px 5px;
+}
+
+.meri-button {
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+}
